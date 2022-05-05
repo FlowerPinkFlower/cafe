@@ -1,0 +1,319 @@
+*{
+    margin:0%;
+   
+}
+
+
+body{
+    background-color: rgb(255, 246, 239);
+    font-size: 20px;
+}
+
+
+
+@font-face {
+    font-family:"Rudolph";
+    src: url(Police/Rudolph.otf);
+}
+
+header{
+    background-color:  rgb(255, 246, 239);
+    font-family: "Rudolph";
+    font-size: 40px;
+}
+
+/*ACCUEIL*/
+h1{
+    text-align: center; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+h2{
+    margin: 2%;
+    text-align: center; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+
+}
+
+
+.point{             /*bouton barre navigateur*/
+    text-decoration: none;
+    color:pink;
+}
+
+.point:hover{       /*bouton barre navigateur*/
+    color:plum;
+}
+
+p{
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    font-size: 15px;
+    margin: 0px 10px 0px 10px;
+
+}
+
+.lilix{             /*GIF*/
+   width: 1600px;
+  }
+
+.sommaire{              /*bouton barre navigateur*/
+    text-align: center;
+
+}
+
+.pattes:hover{              /*bouton barre navigateur*/
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 100px;
+}
+
+
+article {           /*Fiche identité chats*/
+    padding: 2%;
+    margin: 2% 20% 2% 20%;
+    border: 6px solid  rgb(219, 166, 184);
+    background-color: rgb(219, 166, 184);
+    border-radius: 20px;
+    text-indent: 10%;   
+}
+
+.chat h3{    
+    text-align: center;    
+}
+
+.chat h4{
+    margin: 0% 25% 2% 25%;   
+}
+
+.chat p{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%;
+    text-align: justify;
+    font-size: 1em;
+}
+
+
+/*MENU*/
+
+.coffee{
+    background: rgb(197, 239, 255);
+    color: white;
+    text-align: center;  
+}
+
+.coffees{
+    padding-left: 120%;
+    font-size: 200px;
+
+}
+
+.fruit{
+    background: rgb(255, 228, 232);
+    color: white;
+    text-align: center;
+}
+
+.fruits{
+    padding-left: 90%;
+    font-size: 30px;
+}
+
+
+/*CONTACT*/
+/*Google maps*/
+
+.itineraire{
+    margin:2% 0% 0% 1%;
+}
+.map-responsive{
+    overflow: hidden;
+    padding:15%;
+    position:relative;
+    height:10;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:1000px;
+    width:1000px;
+    position:absolute;
+    padding: 4% 0% 0% 4%;
+    border: none;    
+}
+
+.elem{
+    margin: 2%;    
+}
+
+/*Prénom mail mise en page*/
+input{
+    width: 30%;
+    height: 30px ;
+    border-color: pink;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+input:focus{
+    width: 40%;
+    height: 40px;
+    border-color: plum;
+    outline: none;
+    transition-duration: 1s;
+}
+
+
+
+/*Message mise en page*/
+.contact{
+    text-align: center;
+}
+
+.mess{
+    overflow: auto;    
+}
+
+textarea{
+    width: 30%;
+    margin: auto;
+    border-bottom: 2px solid pink; 
+    border-left: 2px solid pink;
+    border-top: white;
+    border-right: white;
+}
+
+textarea:focus{
+    outline:none;
+}
+
+.favorite_styled{
+    border: 0;
+    line-height: 2.5;
+    padding: 5px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: palevioletred;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px palevioletred;
+}
+
+
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    background-color:  rgb(255, 246, 239);
+    padding: 0.5%;
+    position: relative;
+}
+
+
+
+/* COFFEE TEST MESSAGE VOLANT*/
+
+
+.coffees
+{
+    font-size: 20px;
+    color:white;
+    text-decoration:none;
+    position:relative;
+    padding: 0px 20px 0px 150px;
+}
+ 
+ 
+.coffees span
+{
+  display:none;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  color:plum;           /*Ecriture message*/
+  background:white; /*Interieur message*/
+}
+ 
+ 
+.coffees span img
+{
+  float:center; 
+}
+ 
+ 
+ 
+.coffees:hover span  /*bloc message*/
+{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1000;
+    width:auto;
+    max-width:2000px;
+    min-height:0px;
+    border:2px dashed plum;
+    margin-top:12px;
+    margin-left:32px;
+    overflow:hidden;
+    padding:8px;
+}
+
+
+
+
+/* FRUIT TEST MESSAGE VOLANT*/
+
+
+.fruits
+{
+    font-size: 20px;
+    color:white;
+    text-decoration:none;
+    position:relative;
+    padding: 0px 20px 0px 150px;
+}
+ 
+ 
+.fruits span
+{
+  display:none;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  color:plum;           /*Ecriture message*/
+  background:white; /*Interieur message*/
+}
+ 
+ 
+.fruits span img
+{
+  float:center; 
+}
+ 
+ 
+.fruits:hover span  /*bloc message*/
+{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1000;
+    width:auto;
+    max-width:2000px;
+    min-height:0px;
+    border:2px dashed plum;
+    margin-top:12px;
+    margin-left:32px;
+    overflow:hidden;
+    padding:8px;
+  }
+
+  
